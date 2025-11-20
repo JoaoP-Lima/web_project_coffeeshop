@@ -190,7 +190,9 @@
 }
 .reservation__title {
   text-align: center;
-
+  margin-left: auto;
+  margin-bottom: 80px;
+  margin-right: auto;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -199,7 +201,7 @@
 }
 
 .reservation__form {
-  margin: 80px auto 0 auto;
+  margin: 0 auto;
   max-width: 385px;
 }
 
