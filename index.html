@@ -120,6 +120,7 @@
                 id="nome"
                 class="form__input"
                 placeholder="Nome"
+                required
               />
 
               <label for="convidados" class="form__label"
@@ -132,15 +133,22 @@
                 min="1"
                 max="8"
                 placeholder="1-8"
+                required
               />
               <label for="dataHora" class="form__label">Data e hora * </label>
-              <input type="datetime-local" id="dataHora" class="form__input" />
+              <input
+                type="datetime-local"
+                id="dataHora"
+                class="form__input"
+                required
+              />
               <label for="email" class="form__label">Seu e-mail *</label>
               <input
                 id="email"
                 type="email"
                 class="form__input"
                 placeholder="email@email.com"
+                required
               />
               <button type="submit" class="form__button">
                 Reservar uma mesa
@@ -151,6 +159,7 @@
                   name="termos"
                   id="termos"
                   class="form__checkbox-item"
+                  required
                 />
                 <label for="termos" class="form__label"
                   >Eu concordo com os termos de uso</label
