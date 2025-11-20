@@ -218,7 +218,7 @@ padding-bottom: 24px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 44px;
   line-height: 52px;
 }
 
@@ -233,7 +233,7 @@ max-width: 385px;
 
 }
 
-.fieldset__form {
+.form__fieldset{
 
   border: none;
   margin: 0;
