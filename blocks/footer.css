@@ -51,7 +51,7 @@
 
 .footer__social-link {
   text-decoration: none;
-  color: #ffffff;
+  color: #C1C1C1;
   vertical-align: middle;
 
    font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -65,6 +65,7 @@
   width: 16px;
   height: 16px;
   padding-right: 10px;
+  vertical-align: middle;
 }
 
 .footer__copyright {

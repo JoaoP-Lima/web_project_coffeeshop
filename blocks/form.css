@@ -46,10 +46,12 @@
   background-color: #2f80ed;
   color: #ffffff;
   cursor: pointer;
+  opacity: 100%;
 }
 
 .form__button:hover {
   opacity: 70%;
+  transition: 0.5s;
 }
 
 .form__input::placeholder {
